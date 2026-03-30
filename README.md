@@ -89,6 +89,4 @@ smart-mention-frontend/
 - Change the default group by editing the frontend `App.tsx`.
 - Update bot reply logic in the backend `index.js`.
 
-## License
 
-MIT
