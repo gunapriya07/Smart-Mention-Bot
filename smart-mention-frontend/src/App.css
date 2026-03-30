@@ -1,3 +1,32 @@
+/* Group selector styles */
+.group-selector-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0 1.5rem 0;
+  gap: 0.5rem;
+}
+
+.group-selector-label {
+  font-weight: 500;
+  color: #bdb7e2;
+  font-size: 1rem;
+}
+
+.group-selector-input {
+  padding: 0.4rem 1rem;
+  border-radius: 8px;
+  border: 1.5px solid #6c63ff;
+  background: #181028;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s;
+}
+.group-selector-input:focus {
+  border: 2px solid #6c63ff;
+  background: #221a36;
+}
 /* App.css - Normal CSS for main chat layout */
 
 .app-bg {
