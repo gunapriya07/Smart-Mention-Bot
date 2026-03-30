@@ -1,0 +1,68 @@
+/* MessageInput.css - Normal CSS for chat input area */
+
+
+.message-input-container {
+  width: 100%;
+  padding: 0 1.2rem 1.2rem 1.2rem;
+}
+
+
+
+.message-input-row {
+  display: flex;
+  align-items: center;
+  background: #181028;
+  border-radius: 0.6rem;
+  padding: 0.12rem 0.4rem;
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.25);
+}
+
+
+
+
+.message-input-field {
+  flex: 1;
+  background: transparent;
+  color: #f3f4f6;
+  outline: none;
+  border: none;
+  font-size: 0.88rem;
+  height: 1.2rem;
+  padding: 0 0.1rem;
+}
+
+.message-input-field::placeholder {
+  color: #6b7280;
+}
+
+
+
+.message-send-btn {
+  margin-left: 0.25rem;
+  background: #7c3aed;
+  color: #fff;
+  border: none;
+  padding: 0.13rem 0.45rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.message-send-btn:hover {
+  background: #6d28d9;
+}
+
+
+.message-input-hint {
+  font-size: 0.7rem;
+  color: #6b7280;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+kbd {
+  background: #181028;
+  padding: 0 0.25rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+}

@@ -1,0 +1,50 @@
+/* ChatHeader.css - Normal CSS for chat header */
+
+.chat-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem 2rem;
+  background: transparent;
+}
+
+.header-icon {
+  background: #6d28d9;
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.header-title {
+  color: #f3f4f6;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+.header-desc {
+  color: #9ca3af;
+  font-size: 0.85rem;
+}
+
+.header-desc .mention {
+  color: #a78bfa;
+  font-weight: bold;
+}
+
+.header-status {
+  margin-left: auto;
+}
+
+.header-status-dot {
+  display: inline-block;
+  width: 0.75rem;
+  height: 0.75rem;
+  background: #4ade80;
+  border-radius: 9999px;
+  box-shadow: 0 0 6px #4ade80;
+}

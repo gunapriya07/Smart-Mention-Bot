@@ -1,0 +1,54 @@
+/* MessageList.css - Normal CSS for chat UI dark theme */
+
+
+.message-list-container {
+  flex: 1;
+  padding: 1.5rem 2rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.message-row {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  justify-content: center;
+}
+
+
+.message-bubble {
+  background: #181028;
+  border-radius: 0.7rem;
+  padding: 0.35rem 0.8rem;
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.25);
+  max-width: 18rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+
+
+.message-text {
+  color: #f3f4f6;
+  font-size: 0.82rem;
+  line-height: 1.2;
+}
+
+.message-text .mention {
+  color: #a78bfa;
+  font-weight: bold;
+}
+
+
+
+.message-time {
+  font-size: 0.68rem;
+  color: #9ca3af;
+  margin: 0 0 0 0.5rem;
+  align-self: flex-end;
+  white-space: nowrap;
+}
